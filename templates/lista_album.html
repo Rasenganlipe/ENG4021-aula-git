@@ -1,0 +1,8 @@
+<ul>
+  {% for album in albuns %}
+    <li>{{ album.nome  }} || {{ album.ano  }} || {{ album.n_musicas  }} || {{ album.real  }}</li>
+      <a href="/tasks/edit/{{album.id}}">Editar</a>
+      <a href="/tasks/delete/{{album.id}}">Remover</a>
+    </li>
+  {% endfor %}
+</ul>

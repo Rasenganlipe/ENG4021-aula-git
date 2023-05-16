@@ -1,0 +1,8 @@
+<ul>
+  {% for musica in musica %}
+    <li>{{ musica.nome  }} || {{ musica.ano  }} || {{ musica.downloads  }} || {{ musica.aplicativol  }}</li>
+      <a href="/tasks/edit/{{musica.id}}">Editar</a>
+      <a href="/tasks/delete/{{musica.id}}">Remover</a>
+    </li>
+  {% endfor %}
+</ul>

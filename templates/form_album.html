@@ -1,0 +1,20 @@
+<form method="post">
+  {% csrf_token %}
+  <div>
+    <label>Nome</label>
+    <input type="text" name="nome" value="{{ album.nome }}">
+  </div>
+  <div>
+    <label>Ano</label>
+    <input type="date" name="ano" value="{{ album.ano }}">
+  </div>
+  <div>
+    <label>Numero de musicas</label>
+    <input type="text" name="n_musicas" value="{{ album.n_musicas }}">
+  </div>
+  <div>
+    <input type="checkbox" name="real" {% if album.real == True %} checked {% endif %}>
+    <label>real</label>
+  </div>
+  <input type="submit">
+</form>

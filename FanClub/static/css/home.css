@@ -1,0 +1,59 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-image: url("https://m.media-amazon.com/images/I/71Je9MaCiHL._AC_SL1200_.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h1
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Rubik Iso', cursive;
+  font-family: 'Russo One', sans-serif;
+}
+.white-russo
+{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Rubik Iso', cursive;
+  font-family: 'Russo One', sans-serif;
+  color:#ffffff 
+}
+.white-text
+{
+  color:#ffffff 
+}
+  table {
+    border-collapse: collapse;
+    width: 60%;
+  }
+  th{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+.picRight{
+  float: right;
+  width: 20%;
+}
+a:link{
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+  color:white
+}
